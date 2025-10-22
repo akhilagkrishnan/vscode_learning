@@ -1,3 +1,25 @@
 #Git tutorial
 Check in : Make changes and save them
 check out : file is by default in locked stated, in order to make changes yo are required to check out
+commit : saving the code
+Branch : copy /backup of teh existing main
+Version control :  have all the changes history
+Merge : commit changes to master
+Cloning
+Local Repo
+Remote Repo
+Prune
+lock
+Pull 
+Push
+Fetch
+Change sets
+Tags
+Sync
+Staging
+Get Latest
+Stash
+Cherrypick
+Version Control Policies
+
+
