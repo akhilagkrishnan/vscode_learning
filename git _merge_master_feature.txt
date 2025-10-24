@@ -1,0 +1,29 @@
+#Option 1: Merge Master into Feature Branch (safe and simple)
+#This approach adds a merge commit, preserving full history.
+
+#Fetch latest updates from the remote:
+
+bash
+git fetch origin
+
+#Switch to your feature branch:
+
+bash
+git checkout feature-branch
+
+#Merge the updated master branch:
+
+bash
+git merge origin/master
+
+#Resolve any conflicts (if prompted):
+
+bash
+git add <file>
+git commit
+
+
+#Push the updated branch:
+
+bash
+git push origin feature-branch
