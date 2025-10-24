@@ -1,0 +1,25 @@
+#Fetch the latest updates:
+
+bash
+git fetch origin
+
+#Switch to your feature branch:
+
+bash
+git checkout feature-branch
+
+#Rebase onto master:
+
+bash
+git rebase origin/master
+
+If conflicts occur, resolve them and continue:
+
+bash
+git add <file>
+git rebase --continue
+
+#Push the rebased branch (force needed since history changed):
+
+bash
+git push -f origin feature-branch
