@@ -1,0 +1,45 @@
+#Ensure Your Feature Branch is Up To Date (Optional but recommended)
+
+#Switch to your feature branch if you are not on it:
+
+bash
+git checkout feature-branch
+
+#Pull the latest changes from the remote:
+
+bash
+git pull
+
+#Switch to the Master Branch
+
+bash
+git checkout master
+
+#Update the Master Branch. Make sure your master branch is up to date with the remote repository:
+
+bash
+git pull origin master
+
+#Merge Your Feature Branch into Master
+
+bash
+git merge feature-branch
+
+
+#Resolve any conflicts if they arise.
+
+#Push the Updated Master Branch to the Remote Repository
+
+bash
+git push origin master
+
+
+#Optional: Clean Up Feature Branch
+#If you no longer need the feature branch, delete it locally:
+
+bash
+git branch -d feature-branch
+And delete it from remote if desired:
+
+bash
+git push origin --delete feature-branch
